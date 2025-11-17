@@ -1,0 +1,44 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+*.cache
+*.tmp
+
+# Env & config
+.env
+.env.* 
+*.local
+config.php
+
+# Composer
+/vendor/
+/composer.lock
+
+# Node
+/node_modules/
+npm-debug.log
+
+# Cache
+/cache/
+/storage/cache/
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# Uploads
+/public/uploads/
+/uploads/
+
+# IDE files
+*.idea
+*.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.bak
+*.swp
